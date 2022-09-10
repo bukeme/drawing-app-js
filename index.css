@@ -1,0 +1,54 @@
+:root {
+    --body-background: rgb(212, 212, 212);
+    --canvas-border: lightseagreen;
+    --toolbar-background: lightseagreen;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-background);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+canvas {
+    border: 2px solid var(--canvas-border);
+    margin: 0 50px;
+}
+
+div {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 0 10px;
+    background-color: var(--toolbar-background);
+}
+
+button {
+    padding: 5px 8px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 0 8px;
+    width: 30px;
+    height: 30px;
+}
+
+span:last-child {
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
